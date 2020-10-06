@@ -76,6 +76,7 @@ The most common activity is to add new positions to a team. A member of a team i
 ## Contact
 
 Alex Belloni Alves  
+LinkedIn - [alexbellonialves](https://www.linkedin.com/in/alexbellonialves/)   
 Twitter - [@xbelloni](https://twitter.com/xbelloni) 
 
 

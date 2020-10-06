@@ -55,7 +55,7 @@ The database is an array of objects with a structure:
 ### Export a backup of the DB if applicable  
 This step is necessary because the addition of positions is executed after the crawling. This information is recovered from the backup to the new version of the database. The script compareBackup will do this task. 
 ### Run the script crawler  
-The crawler reads the entire page (SPA) of the Universal Event teams. In case of a team has the badge "looking for members", it is stored into a JSON file. 
+I didn't have access to the official database of the hackathon. Therefore, the crawler reads the entire page (SPA) of the Universal Event teams. In case of a team has the badge "looking for members", it is selected and stored into a JSON file. 
 <br />
 <p align="center">
     <img src="./src/images/crawler.gif" alt="" >

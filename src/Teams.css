@@ -1,0 +1,65 @@
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 3px;
+    border: solid;
+    border-width: thin;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3px 0 3px 0;
+}
+
+.category {
+    color: #2a5585;
+    font-size: 18px;
+}
+
+.challenge {
+    color: #b20011;
+    font-size: 18px;
+}
+
+.pinpoint {
+    width: 15px;
+    margin: 5px 5px 0 0;
+}
+
+.positions {
+    display: flex;
+    flex-direction: column;
+}
+
+.positions span {
+    text-align: left;
+    font-size: small;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: lightgreen;
+    margin: 5px 0;
+}
+
+.detail-btn {
+    background: transparent;
+    box-shadow: 0 4px 0 #b49f00;
+    border: 2px solid #b49f00;
+    border-radius: 2px;
+    letter-spacing: .4px;
+    margin: 10px 0;
+}
+
+.updatedDate {
+    align-self: flex-end;
+    font-size: 9px;
+}

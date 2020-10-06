@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: #00664c;
+    text-decoration: none;
+}
+
+a::after {
+    content: "\2192";
+    display: inline-block;
+    margin: 0 0 0 0.5rem;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    margin: 3px 5px;
+}
+
+.logo {
+    width: 18px;
+    margin-right: 15px;
+}
+
+.tell-me {
+    margin: 0 0 10px 0;
+}
+
+h4 {
+    margin: 10px 0 5px 0;
+}
+
+.total {
+    margin: 0 0 20px 0;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.number-of-teams {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #00664c;
+}
+
+.loading-div {
+    text-align: center;
+}
+
+.loading {
+    width: 200px
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+footer span {
+    margin: 10px 0;
+}
+
+.heart{
+}
+
+@media screen and (min-width: 415px) {
+    .home {
+        margin: 5px 15px;
+    }
+}

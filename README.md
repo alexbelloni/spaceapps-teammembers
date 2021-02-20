@@ -45,12 +45,12 @@ The mural of position helped participants to find a Space Apps team and teams to
 ### Create a Firebase DB if aplicable  
 The database is an array of objects with a structure:  
 {  
-  "location",  
-  "lookingForMembers",  
-  "positions",  
-  "teamName",  
-  "updated",  
-  "url"  
+  "location", //string  
+  "lookingForMembers", //boolean    
+  "positions", //array    
+  "teamName", //string   
+  "updated", //datetime   
+  "url" //string   
   }  
 ### Export a backup of the DB if applicable  
 This step is necessary because the addition of positions is executed after the crawling. This information is recovered from the backup to the new version of the database. The script compareBackup will do this task. 
@@ -75,8 +75,8 @@ The most common activity is to add new positions to a team. A member of a team i
 <!-- CONTACT -->
 ## Contact
 
-Alex Belloni Alves  
-LinkedIn - [alexbellonialves](https://www.linkedin.com/in/alexbellonialves/)   
-Twitter - [@xbelloni](https://twitter.com/xbelloni) 
+Alexandre Alves  
+[LinkedIn](https://www.linkedin.com/in/alexandrealvestoca/)   
+[Twitter](https://twitter.com/xbelloni) 
 
 
